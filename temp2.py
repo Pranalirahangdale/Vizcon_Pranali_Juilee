@@ -113,7 +113,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Create tabs with colored backgrounds
-tab1, tab2, tab3, tab4 = st.tabs(["Overview", "Amazon EV", "EV Analytics", "EVBot"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["Overview", "Amazon EV", "EV Analytics", "EVBot", "About the Authors"])
 
 with tab1:
     # Get video as base64
