@@ -62,6 +62,7 @@ Juilee Patil - Business Intelligence Engineer, Robotics Delivery Science Team, A
 ## 🤖 GenAI Integration
 
 This project showcases the power of Generative AI in modern development:
+
 • **Content Creation**: Leveraged Cedric and Amazon Q for compelling storytelling
 • **Custom AI Assistant**: Built "Sparky" using Google Gemini for personalized EV guidance
 • **Data Insights**: AI-powered analysis of complex sustainability metrics
@@ -74,9 +75,6 @@ Our dashboard demonstrates how technology can drive sustainability awareness, fe
 • Amazon's path to net-zero carbon by 2040
 • Interactive tools for EV decision-making
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE LICENSE file for details.
 
 ## 🙏 Acknowledgments
 
