@@ -98,7 +98,7 @@ tab1, tab2, tab3, tab4 = st.tabs(["Overview", "Amazon EV", "EV Analytics", "EVBo
 with tab1:
     # Get video as base64
     try:
-        video_base64 = get_video_base64("vecteezy_roadside-charging-station-with-an-ev-car-and-natural_49116874.mov.mp4")
+        video_base64 = get_video_base64("vecteezy_roadside-charging-station-with-an-ev-car-and-natural_49116874_956.mov.mp4")
         
         # Rectangle container with video background and title
         st.markdown(f"""
