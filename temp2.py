@@ -538,7 +538,7 @@ with tab4:
 
             load_dotenv()
             
-            GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+            GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
             
             if not GOOGLE_API_KEY:
                 st.error("Missing GOOGLE_API_KEY in .env file")
