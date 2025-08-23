@@ -1,0 +1,15 @@
+streamlit
+plotly
+pandas
+langchain
+langchain-google-genai
+langchain-community
+google-generativeai
+python-dotenv
+pypdf
+numpy
+pinecone-client
+unstructured
+tiktoken
+pypdf2
+langchain-pinecone
