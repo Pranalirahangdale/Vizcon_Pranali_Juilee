@@ -81,8 +81,6 @@ Our dashboard demonstrates how technology can drive sustainability awareness, fe
 • Amazon's Robotics Delivery Science Team for supporting innovation
 • The open-source community for incredible tools and libraries
 • Everyone working toward a sustainable transportation future
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
+______________________________________________________________
 
 Powering a sustainable tomorrow, one electric mile at a time ⚡🌱
