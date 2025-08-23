@@ -712,6 +712,144 @@ with tab4:
 
 
 
+with tab5:
+    st.markdown("""
+    <div style="background-color: #232F3E; padding: 25px; border-radius: 15px; color: white; margin-bottom: 30px; text-align: center;">
+        <h2 style="color: #FF9900; margin-bottom: 15px;">Meet the Authors</h2>
+        <p style="font-size: 18px; margin: 0;">The minds behind this EV Revolution Dashboard</p>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    # Authors introduction
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.markdown("""
+        <div style="background-color: #F5F5F5; padding: 25px; border-radius: 15px; text-align: center; height: 300px; display: flex; flex-direction: column; justify-content: center;">
+            <div style="width: 80px; height: 80px; background-color: #FF9900; border-radius: 50%; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center;">
+                <span style="color: white; font-size: 32px; font-weight: bold;">P</span>
+            </div>
+            <h3 style="color: #232F3E; margin-bottom: 10px;">Pranali Rahangdale</h3>
+            <p style="color: #666; font-size: 16px; margin-bottom: 15px;">Data Scientist<br>Robotics Delivery Science Team, Amazon</p>
+            <a href="https://www.linkedin.com/in/pranali-rahangdale/" target="_blank" style="background-color: #0077B5; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 14px;">LinkedIn Profile</a>
+        </div>
+        """, unsafe_allow_html=True)
+    
+    with col2:
+        st.markdown("""
+        <div style="background-color: #F5F5F5; padding: 25px; border-radius: 15px; text-align: center; height: 300px; display: flex; flex-direction: column; justify-content: center;">
+            <div style="width: 80px; height: 80px; background-color: #FF9900; border-radius: 50%; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center;">
+                <span style="color: white; font-size: 32px; font-weight: bold;">J</span>
+            </div>
+            <h3 style="color: #232F3E; margin-bottom: 10px;">Juilee Patil</h3>
+            <p style="color: #666; font-size: 16px; margin-bottom: 15px;">Business Intelligence Engineer<br>Robotics Delivery Science Team, Amazon</p>
+            <a href="https://www.linkedin.com/in/juilee-patil-profile/" target="_blank" style="background-color: #0077B5; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 14px;">LinkedIn Profile</a>
+        </div>
+        """, unsafe_allow_html=True)
+    
+    # About the project
+    st.markdown("""
+    <div style="background-color: #232F3E; padding: 30px; border-radius: 15px; color: white; margin: 30px 0;">
+        <h2 style="color: #FF9900; margin-bottom: 20px; text-align: center;">About This Project</h2>
+        <p style="font-size: 16px; line-height: 1.8; margin-bottom: 20px;">
+        This comprehensive EV Revolution Dashboard represents our passion for sustainable technology and data-driven storytelling. 
+        We've crafted an immersive experience that takes users through the fascinating 200-year journey of electric vehicles, 
+        from their humble beginnings in the 1830s to today's cutting-edge innovations.
+        </p>
+        <p style="font-size: 16px; line-height: 1.8; margin-bottom: 20px;">
+        The dashboard seamlessly blends historical insights with real-time analytics, showcasing Amazon's leadership in sustainable 
+        delivery through our electric fleet initiatives. Our interactive Tableau visualizations reveal global EV trends, 
+        while our AI-powered chatbot "Sparky" provides personalized guidance on electric vehicle adoption.
+        </p>
+        <p style="font-size: 16px; line-height: 1.8; margin: 0;">
+        By combining compelling narratives with robust data analysis, we've created more than just a dashboard—we've built 
+        a platform that educates, inspires, and empowers users to be part of the electric revolution that's reshaping our world.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    # Amazon Leadership Principles
+    st.markdown("""
+    <div style="margin: 30px 0;">
+        <h2 style="color: #232F3E; text-align: center; margin-bottom: 30px;">Embodying Amazon Leadership Principles</h2>
+        <div style="display: flex; gap: 20px;">
+            <div style="flex: 1; background-color: #FF9900; padding: 25px; border-radius: 15px; color: white;">
+                <h3 style="margin-bottom: 15px;">🔍 Deep Dive</h3>
+                <p style="line-height: 1.6; margin: 0;">
+                We conducted extensive research into EV history, market trends, and sustainability metrics. 
+                Our analysis spans 200 years of electric vehicle evolution, current global adoption patterns, 
+                and Amazon's comprehensive sustainability initiatives, ensuring every insight is backed by thorough investigation.
+                </p>
+            </div>
+            <div style="flex: 1; background-color: #232F3E; padding: 25px; border-radius: 15px; color: white;">
+                <h3 style="color: #FF9900; margin-bottom: 15px;">💡 Invent and Simplify</h3>
+                <p style="line-height: 1.6; margin: 0;">
+                We transformed complex EV data into an intuitive, engaging experience. Our AI chatbot "Sparky" 
+                simplifies technical concepts, while interactive visualizations make sustainability metrics accessible. 
+                We invented new ways to present historical data alongside modern analytics in a single, cohesive platform.
+                </p>
+            </div>
+        </div>
+        <div style="display: flex; gap: 20px; margin-top: 20px;">
+            <div style="flex: 1; background-color: #F5F5F5; padding: 25px; border-radius: 15px; color: #333;">
+                <h3 style="color: #232F3E; margin-bottom: 15px;">🎯 Customer Obsession</h3>
+                <p style="line-height: 1.6; margin: 0;">
+                Every feature was designed with our users in mind—from the immersive storytelling approach to 
+                the personalized AI assistant. We created multiple interaction points to serve different learning 
+                styles and interests, ensuring everyone can engage with EV knowledge in their preferred way.
+                </p>
+            </div>
+            <div style="flex: 1; background-color: #404040; padding: 25px; border-radius: 15px; color: white;">
+                <h3 style="margin-bottom: 15px;">🚀 Bias for Action</h3>
+                <p style="line-height: 1.6; margin: 0;">
+                Rather than just presenting data, we built an actionable platform that empowers users to make 
+                informed decisions about EV adoption. Our real-time analytics and AI guidance help users move 
+                from curiosity to concrete understanding and potential action in the EV space.
+                </p>
+            </div>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    # Closing message
+    st.markdown("""
+    <div style="background-color: #232F3E; padding: 30px; border-radius: 15px; color: white; margin: 30px 0;">
+        <h2 style="color: #FF9900; margin-bottom: 20px; text-align: center;">🤖 How We Leveraged GenAI</h2>
+        <p style="font-size: 16px; line-height: 1.8; margin-bottom: 20px;">
+        This entire dashboard is a testament to the power of Generative AI in modern development and storytelling. 
+        We embraced cutting-edge AI tools to transform complex data into compelling narratives and interactive experiences.
+        </p>
+        <div style="display: flex; gap: 25px; margin: 25px 0;">
+            <div style="flex: 1; background-color: #FF9900; padding: 20px; border-radius: 10px;">
+                <h4 style="margin-bottom: 10px;">📝 Content & Storytelling</h4>
+                <p style="margin: 0; font-size: 14px;">
+                Our beloved Cedric and Amazon Q helped craft engaging narratives, historical insights, 
+                and technical explanations that make complex EV concepts accessible to everyone.
+                </p>
+            </div>
+            <div style="flex: 1; background-color: #404040; padding: 20px; border-radius: 10px;">
+                <h4 style="margin-bottom: 10px;">⚡ Meet Sparky</h4>
+                <p style="margin: 0; font-size: 14px;">
+                We created our own cute GenAI assistant "Sparky" - a friendly EV expert powered by 
+                Google Gemini that provides personalized guidance and answers your EV questions!
+                </p>
+            </div>
+        </div>
+        <p style="font-size: 16px; line-height: 1.8; margin: 0; text-align: center; font-style: italic;">
+        From ideation to implementation, GenAI was our creative partner in building this immersive EV experience! 🚗⚡
+        </p>
+    </div>
+    
+    <div style="background-color: #FF9900; padding: 25px; border-radius: 15px; color: white; text-align: center; margin: 30px 0;">
+        <h3 style="margin-bottom: 15px;">Thank You for Exploring the EV Revolution!</h3>
+        <p style="font-size: 16px; margin: 0;">
+        We hope this dashboard has sparked your curiosity about electric vehicles and their role in creating a sustainable future. 
+        Together, we're not just witnessing the EV revolution—we're actively participating in it.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
+
+
 
 
 st.markdown("---")
