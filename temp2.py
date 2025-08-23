@@ -109,6 +109,12 @@ st.markdown("""
         border-color: #F5F5F5;
         color: #333;
     }
+    
+    .stTabs [data-baseweb="tab"]:nth-child(5) {
+        background-color: #F5F5F5;
+        border-color: #F5F5F5;
+        color: #333;
+    }
 </style>
 """, unsafe_allow_html=True)
 
