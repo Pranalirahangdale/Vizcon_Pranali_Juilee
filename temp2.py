@@ -735,7 +735,7 @@ with tab5:
             <div style="width: 80px; height: 80px; background-color: #FF9900; border-radius: 50%; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center;">
                 <span style="color: white; font-size: 32px; font-weight: bold;">P</span>
             </div>
-            <h3 style="color: #232F3E; margin-bottom: 10px;">Pranali Rahangdale</h3>
+            <h3 style="color: #232F3E; margin-bottom: 10px;">Pranali Rahangdale (@pranur) </h3>
             <p style="color: #666; font-size: 16px; margin-bottom: 15px;">Data Scientist<br>Robotics Delivery Science Team, Amazon</p>
             <a href="https://www.linkedin.com/in/pranali-rahangdale/" target="_blank" style="background-color: #0077B5; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 14px;">LinkedIn Profile</a>
         </div>
@@ -747,7 +747,7 @@ with tab5:
             <div style="width: 80px; height: 80px; background-color: #FF9900; border-radius: 50%; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center;">
                 <span style="color: white; font-size: 32px; font-weight: bold;">J</span>
             </div>
-            <h3 style="color: #232F3E; margin-bottom: 10px;">Juilee Patil</h3>
+            <h3 style="color: #232F3E; margin-bottom: 10px;">Juilee Patil (@patilju) </h3>
             <p style="color: #666; font-size: 16px; margin-bottom: 15px;">Business Intelligence Engineer<br>Robotics Delivery Science Team, Amazon</p>
             <a href="https://www.linkedin.com/in/juilee-patil-profile/" target="_blank" style="background-color: #0077B5; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-size: 14px;">LinkedIn Profile</a>
         </div>
