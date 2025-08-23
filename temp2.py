@@ -538,10 +538,10 @@ with tab4:
 
             load_dotenv()
             
-            GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY")
+            GOOGLE_API_KEY = st.secrets.get("GOOGLE_API_KEY") or os.environ.get("GOOGLE_API_KEY")
             
             if not GOOGLE_API_KEY:
-                st.error("Missing GOOGLE_API_KEY in .env file")
+                st.error("Missing GOOGLE_API_KEY in secrets file")
                 return None, None
             
             embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
