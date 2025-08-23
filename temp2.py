@@ -8,6 +8,26 @@ import datetime
 
 st.set_page_config(page_title="EV Revolution", page_icon="🔋", layout="wide", initial_sidebar_state="collapsed")
 
+
+# Force light theme
+st.markdown("""
+<style>
+    .stApp {
+        color: #262730;
+        background-color: #FFFFFF;
+    }
+    
+    /* Force light theme for all elements */
+    .stApp > header {
+        background-color: transparent;
+    }
+    
+    .stApp .main .block-container {
+        background-color: #FFFFFF;
+    }
+</style>
+""", unsafe_allow_html=True)
+
 # Function to convert video to base64
 @st.cache_data
 def get_video_base64(video_path):
