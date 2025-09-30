@@ -647,7 +647,7 @@ with tab4:
                     template="You are Sparky, a friendly EV expert. Answer based on the context:\n\nContext:\n{context}\n\nQuestion: {question}\n\nAnswer:",
                     input_variables=["context", "question"]
                 )
-                model = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.3)
+                model = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.3)
                 chain = load_qa_chain(llm=model, chain_type="stuff", prompt=prompt)
                 
                 doc = Document(page_content=combined_context)
