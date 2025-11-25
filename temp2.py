@@ -557,7 +557,7 @@ with tab4:
             from langchain.prompts import PromptTemplate
             from langchain.chains.question_answering import load_qa_chain
             from langchain_community.document_loaders import PyPDFLoader
-            from langchain.text_splitter import RecursiveCharacterTextSplitter
+            from langchain_text_splitters import RecursiveCharacterTextSplitter
             from langchain.schema import Document
             import google.generativeai as genai
             import numpy as np
@@ -582,7 +582,7 @@ with tab4:
     def process_knowledge_base():
         try:
             from langchain_community.document_loaders import PyPDFLoader
-            from langchain.text_splitter import RecursiveCharacterTextSplitter
+            from langchain_text_splitters import RecursiveCharacterTextSplitter
             
             loader = PyPDFLoader("Vizcon_EV.pdf")
             documents = loader.load()
