@@ -1,10 +1,6 @@
 streamlit
 plotly
 pandas
-langchain
-langchain-text-splitters
-langchain-google-genai
-langchain-community
 google-generativeai
 python-dotenv
 pypdf
@@ -13,6 +9,11 @@ pinecone-client
 unstructured
 tiktoken
 pypdf2
-langchain-pinecone
-langchain-core
-pydantic
+langchain==0.0.350
+langchain-core==0.0.12
+langchain-community==0.0.10
+langchain-text-splitters>=0.0.1
+langchain-google-genai>=0.0.6
+langchain-pinecone>=0.0.1
+pydantic==1.10.13
+
