@@ -2,6 +2,7 @@ streamlit
 plotly
 pandas
 langchain
+langchain-text-splitters
 langchain-google-genai
 langchain-community
 google-generativeai
