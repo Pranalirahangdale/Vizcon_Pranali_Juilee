@@ -667,7 +667,7 @@ with tab4:
                 st.session_state.doc_embeddings = doc_embeddings
                 st.success("⚡ Sparky is ready to help!")
             else:
-                st.error("❌ Sparky needs maintenance. Please try again later.")
+                st.error("❌ Sparky needs maintenance. - Hi, my owner has stopped doing maintenance so please reach out to them if you have any specific questions. Please try again later.")
     
     # Chat interface
     if 'ev_messages' not in st.session_state:
