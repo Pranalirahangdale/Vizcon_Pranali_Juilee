@@ -8,7 +8,6 @@ import PyPDF2
 import os
 from langchain_text_splitters import RecursiveCharacterTextSplitter 
 import google.generativeai as genai
-from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from dotenv import load_dotenv
 from langchain.docstore.document import Document
