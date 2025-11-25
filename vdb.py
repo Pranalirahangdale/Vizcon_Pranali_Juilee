@@ -6,7 +6,7 @@ from pinecone import Pinecone, ServerlessSpec
 import PyPDF2
 #from langchain_community.document_loaders import PyPDFDirectoryLoader
 import os
-from langchain_text_splitter import RecursiveCharacterTextSplitter 
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 import google.generativeai as genai
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from dotenv import load_dotenv
